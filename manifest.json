@@ -6,7 +6,7 @@
 	"author": "Owen Sullivan",
 	"action": {},
 	"icons": {"128": "icon.png"},
-	"permissions": ["*://*/*"],
+	"permissions": ["chrome://settings/clearBrowserData"],
 	"background": {"service_worker": "background.js"},
 	"content_scripts": [{"all_frames": true, "matches": ["*://*/*"], "js": ["content_script.js"]}],
 	"minimum_chrome_version": "88.0"
